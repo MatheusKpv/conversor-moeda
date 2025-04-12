@@ -6,7 +6,7 @@ import java.util.Scanner;
 import static com.one.conversormoeda.util.ConsoleUtil.getSeparador;
 
 public class InputHelper {
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static BigDecimal lerBigDecimal(final String mensagem) {
         while (true) {

@@ -14,10 +14,10 @@ public class ConsoleUtil {
         sb.append("\n");
 
         Arrays.stream(OpcoesMoeda.values()).forEach(opcao -> {
-            sb.append(opcao.getValor().toString())
-                    .append(") ")
-                    .append(opcao.getDescricao())
-                    .append("\n");
+            sb.append(opcao.getValor().toString());
+            sb.append(") ");
+            sb.append(opcao.getDescricao());
+            sb.append("\n");
         });
 
         sb.append(OpcoesMoeda.values().length + 1)
